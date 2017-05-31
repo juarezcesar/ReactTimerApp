@@ -1,10 +1,10 @@
 var webpackConfig = require('./webpack.config.js');
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
-    singleRun: true,
     browsers: ['Chrome'],
-    frameWorks: ['mocha'],
+    singleRun: true,
+    frameworks: ['mocha'],
     files: ['app/tests/**/*.test.jsx'],
     preprocessors: {
       'app/tests/**/*.test.jsx': ['webpack', 'sourcemap']
