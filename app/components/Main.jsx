@@ -2,7 +2,7 @@ var React = require('react');
 var Navigation = require('Navigation');
 
 var Main = (props) => {
-  return(
+  return (
     <div>
       <Navigation/>
       <div className="row">
@@ -14,5 +14,4 @@ var Main = (props) => {
   );
 }
 
-
-module.exports =  Main;
+module.exports = Main;
